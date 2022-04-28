@@ -1,0 +1,581 @@
+@charset "utf-8";
+/* CSS Document */
+html { font-size: calc(0.5em + 1vw); }
+body{ margin: 0;padding: 0;background: #fbab38 url(../images/cont_bg.png);background-repeat: repeat;color: #333333;font-family: 'LG Smart';
+    background-blend-mode: color-dodge;}
+img{ max-width: 100%;}
+
+
+.des_img{ display: inline-block;}
+.m_img{ display: none;}
+
+.full-width-image {width: 100% !important;position: relative;}
+.full-width-image img {width: 100% !important;position: relative;}
+
+a:hover{ color: #ffffff; text-decoration:none;}
+
+.row.no-gutters {margin-right: 0;margin-left: 0;padding-right: 0 !important;padding-left: 0 !important;}
+.container-fluid {width: 100% !important;margin-right: 0px !important;margin-left: 0px !important;padding-left: 0;padding-right: 0;}
+
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  & > [class^="col-"],
+  & > [class*=" col-"] {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+}
+
+/***************************************** NEW CSS *************************/
+
+
+
+.footer_sec{ background:#333333; color:#ffffff;  width:100%; float:left; box-sizing:border-box; padding:0.5%; font-family: 'LG Smart';}
+.footer_nav{ width: 100%;float: left;margin: 0.5% 0%;}
+.footer_sec .footer_nav ul{ margin:0; padding:0; list-style:none;}
+.footer_sec .footer_nav ul li{ float: left;width: 8%;text-align: center;border-right: 1px solid #ffffff;font-size: 16px;text-transform: uppercase;}
+.footer_sec .footer_nav ul li:nth-child(1){ text-align:left;}
+.footer_sec .footer_nav ul li:nth-child(4){border-right: 1px solid #ffffff;text-align: left;padding-left: 2%;box-sizing: border-box; width: 10%; text-align: center;}
+.footer_sec .footer_nav ul li a{ color:#ffffff; text-decoration:none; font-size:14px;}
+.footer_sec p{     font-size: 16px;
+    float: left;
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'LG Smart';
+    text-align: left;
+    font-size: 0.8em;
+    line-height: 1em;
+    margin: 1em 0em;}
+.footer_sec p a{ color:#ffffff; font-family: 'LG Smart';}
+.ft_main {background: #333333;color: #ffffff;}
+.footer_sec .footer_nav ul li:nth-child(4){border-right: 1px solid #ffffff;text-align: left;padding-left: 2%;box-sizing: border-box; width: 14%; text-align: center;}
+
+
+
+.tn{}
+.tn p{ font-family: 'LG Smart'; font-size: 1rem;}
+.tn ul{ margin: 0px; padding: 0px;}
+.tn ul li{ font-family: 'LG Smart'; font-size: 0.7rem;}
+
+.tnc{}
+.tnc h1{font-family: 'LG Smart SemiBold';font-size: 2rem;padding: 2% 0%;}
+.tnc h3{    font-family: 'LG Smart SemiBold';font-size: 1.5rem;color: #a50034;
+    padding: 1% 0%;}
+.tnc p{font-family: 'LG Smart SemiBold';
+    font-size: 1.5rem;
+    color: #333333;}
+.tnc ul{}
+.tnc ul li{    font-family: 'LG Smart';
+    font-size: 1.1rem;
+    padding-bottom: 1%;}
+.tp_txt{     width: 100%;
+    bottom: 4%;
+    color: #ffffff;
+    text-align: center;
+    left: 0;
+    text-transform: uppercase; margin-top: 5%;}
+.tp_txt h1{    font-family: 'LG Smart SemiBold';
+    font-size: 2rem;
+    color: #353434;
+    /* text-shadow: 5px 2px 0 #ce1212, 6px 2px 0 #b51515, 1px 2px 0 #ab1818, -1px -1px 0 #d02a2a; */
+    text-transform: initial;}
+.tp_txt h1 span{    font-size: 3rem;
+    font-family: 'LG Smart';
+    text-shadow: 1px 3px 0 #ce1212, 2px 2px 0 #b51515, 1px 2px 0 #ab1818, -1px -1px 0 #d02a2a;}
+	.frm_sec_mb{ display: none;}
+.l_logo{top: 0;
+    left: 0;
+    padding: 3%;}
+
+
+
+
+
+.ptrn_bg{ background: url("../images/cont_bg.png") repeat;}
+.cont_hdng{font-family: 'LG Smart Light';font-size: 2em;text-transform: uppercase; padding-left: 3em;}
+.cont_hdng span{font-weight: normal;
+    font-family: 'LG Smart Light';
+    border-bottom: 1px solid #000000;}
+.pro_bx{ background: #eeeeee; border-radius: 0.5em;}
+.pro_bx h3{color: #999999;
+    font-family: 'LG Smart Light';
+    font-size: 1.5em; padding: 0.5em 0em;}
+
+.cta_bt{background: #f59f3f;color: #ffffff;display: inline-block;font-family: 'LG Smart Regular';font-size: 1em;padding: 0.3em 2em;
+    margin: 2em 0em;border-radius: 0.5em;}
+.cta_bt a{ color: #ffffff;}
+.ptrn{background-repeat: no-repeat, repeat;background-image:  url("../images/right_png");mix-blend-mode: screen; top: 0; right: 0;}
+.sec_padding{ padding: 4% 0%;}
+button.close.cls {background: #bd0707;opacity: 1;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 0.3em;
+    width: 50px;
+    height: 50px;
+    line-height: 2px;
+    border-radius: 1.5em;
+    top: 0.2em;
+    right: 0.2em;
+    position: absolute;
+}
+
+
+
+.modal-header .close{ padding: 0;}
+button:focus{ outline: none !important;}
+
+.form-control{ font-family: 'LG Smart'; font-size: 0.7em;}
+.modal-title{ font-family: 'LG Smart'; font-size: 1em;}
+.btn_hd{top: 1.5em;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'LG Smart';}
+.btn_hd h2{font-size: 1.5em;
+    font-family: 'LG Smart';}
+.cm_mrg{ margin: 5% 0%;}
+.mob_bb{background: none;
+    box-shadow: none;
+    padding: 0;}
+
+.mrg_cmn{ margin: 4% 0%;}
+
+.top_hd{ top: 22%;text-align: center;width: 100%;}
+.top_hd h1{ background: -webkit-linear-gradient(#e56199, #652755);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    top: 0;
+    text-transform: uppercase;
+    font-family: 'LG Smart SemiBold';
+    font-size: 3em;
+    /* text-shadow: 11px -19px 0px #ffffff; */
+    color: #a50034; filter: drop-shadow(2px 2px #ffffff);}
+
+.whre_tbuy{color: #ffffff;
+    font-family: 'LG Smart';
+    font-size: 1.5em;
+    display: inline-block;
+    background: #a50034;
+    padding: 0.3em 2em;
+    border-radius: 0.5em;
+    border: 2px solid #ffe8c7;
+    box-shadow: 0px 7px 15px #5e3a07;
+    margin-bottom: 1em;}
+
+.carousel-control-next {
+    background:url("../images/right_arrow.png") no-repeat;
+    top: 8em;
+    right: 1em;
+    margin-top: 8em;
+    width: 5%;
+    right: 1em;
+    margin-top: 8em;
+    width: 5%;
+}
+
+.carousel-control-prev {
+    background:url("../images/leftt_arrow.png") no-repeat;
+    top: 8em;
+    margin-top: 8em;
+    width: 5%;
+    left: 2em;
+    margin-top: 8em;
+    width: 5%;
+}
+
+.carousel-control-next-icon{ background-image: none;}
+.carousel-control-prev-icon{ background-image: none;}
+.lege_cpy{    top: 2em;
+    left: 2em;
+    padding: 0% 32%;
+    font-family: 'LG Smart SemiBold';
+    font-size: 1.2em;
+    line-height: 1.2em;
+    color: #ffffff;
+    text-shadow: 1px 3px #333333;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.skyblue {
+	background-color: 0;
+}
+
+.carousel-indicators {
+	bottom: 0;
+}
+.carousel-control.right,
+.carousel-control.left {
+	background-image: none;
+}
+.carousel-item {
+	min-height: 350px;
+	height: 100%;
+	width:100%;
+}
+.carousel-caption h3,
+.carousel .icon-container,
+.carousel-caption button {
+	background-color: #09c;
+}
+.carousel-caption h3 {
+	padding: .5em;
+}
+.carousel .icon-container {
+	display: inline-block;
+	font-size: 25px;
+	line-height: 25px;
+	padding: 1em;
+	text-align: center;
+	border-radius: 50%;
+}
+.carousel-caption button {
+	border-color: #00bfff;
+	margin-top: 1em;
+}
+
+/* Animation delays */
+.carousel-caption h3:first-child {
+	animation-delay: 1s;
+}
+.carousel-caption h3:nth-child(2) {
+	animation-delay: 2s;
+}
+.carousel-caption button {
+	animation-delay: 3s;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.p {
+  padding-top: 125px;
+  text-align: center;
+}
+
+.p a {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1920px){
+	.des_img{display:block !important;}
+	.m_img{ display: none !important;}
+	.des_img{ display: inline-block !important;}
+	
+
+	
+}
+
+
+@media only screen and (max-width:1600px){
+	.des_img{display:block;}
+	.m_img{ display: none;}
+	.des_img{ display: inline-block;}
+
+	
+}
+
+@media only screen and (max-width:1400px){
+	.des_img{display:block;}
+	.m_img{ display: none;}
+	.des_img{ display: inline-block;}
+	.tp_txt h1{ font-size: 1.5em;}
+	.btn_hd{ top: 1.9em;}
+	.btn_hd h2{ font-size: 2em;}
+}
+
+@media only screen and (max-width:1366px){
+	.des_img{display:block;}
+	.m_img{ display: none;}
+	.des_img{ display: inline-block;}
+	.tp_txt h1{ font-size: 1.5em;}
+	.btn_hd{ top: 1.9em;}
+	.btn_hd h2{ font-size: 2em;}
+
+}
+
+@media only screen and (max-width:820px){
+	.l_logo{ width: 16%;}
+/***************** NEW **************************/
+
+	.footer_sec .footer_nav ul li{ width: 14%;}
+	
+}
+@media only screen and (max-width:740px){
+	.l_logo{ width: 16%;}
+	
+	
+	.des_img{ display: none;}
+    .m_img{ display: inline-block;}
+	
+	.m_img{ display: inline-block;}
+	/**************** NEW *********************/
+	.footer_sec .footer_nav ul li{ width: 14%;}
+
+	
+}
+
+@media only screen and (max-width:667px){
+	.ml-4, .mx-4{ margin-left: 0% !important; margin-right: 0% !important;}
+	
+	/************** NEW ***********************/
+	
+
+}
+	
+
+
+@media only screen and (max-width:640px){
+	.l_logo{ width: 16%;}
+	.des_img{ display: none;}
+    .m_img{ display: inline-block;}
+	.m_img{ display: inline-block;}
+
+	
+	.tp_txt h1{ font-size: 3rem;}
+	.tp_txt h1 span{ font-size: 2rem;}
+	.hd_txt{top: 10%;left: 8%;margin-top: 10%;text-align: center;font-family: 'LG Smart';font-size: 1.1rem;color: #676767;}
+	.hd2{ font-size: 1.5rem;}
+	
+}
+
+@media only screen and (max-width:578px){
+	
+	.des_img{ display: none !important;}
+    .m_img{ display: inline-block !important;}
+	.l_logo{ width: 20%;}
+	
+	.footer_sec .footer_nav ul li{ width:32%; margin-bottom:5%;}
+	.footer_sec .footer_nav ul li:nth-child(4){border-right:1px solid #ffffff;text-align: center;padding-left: 0%;box-sizing: border-box; width: 44%;}
+	.footer_sec .footer_nav ul li:nth-child(1){ text-align:center;}
+	.footer_sec p{font-size: 16px;float: left;display: block;width: 72%;margin: 0% 14%;padding: 0% 0%;text-align: center;}
+	
+	.m_img{ display: inline-block;}
+	/****************** NEW ******************/
+	
+	
+	.footer_sec .footer_nav ul li{ width:44%; margin-bottom:5%;}
+	.footer_sec .footer_nav ul li:nth-child(4){border-right:1px solid #ffffff;text-align: center;padding-left: 0%;box-sizing: border-box; width: 44%;}
+	.footer_sec .footer_nav ul li:nth-child(1){ text-align:center;}
+	.footer_sec p{font-size: 16px;float: left;display: block;width: 72%;margin: 0% 14%;padding:2% 0% 5% 0%;text-align: center;}
+	.tp_txt {
+    width: 100%;
+    bottom: 8%;
+    color: #ffffff;
+    text-align: center;
+    left: 0;
+    text-transform: uppercase;
+    margin-top: 10%;
+}
+	.tp_txt h1{     font-size: 2rem;
+    padding: 0% 10%;}
+	.pro_bx h3 {
+    color: #999999;
+    font-family: 'LG Smart Light';
+    font-size: 2em;
+    padding: 0.5em 0em;
+}
+	
+	.cta_bt {
+    background: #f59f3f;
+    color: #ffffff;
+    display: inline-block;
+    font-family: 'LG Smart Regular';
+    font-size: 1.5em;
+    padding: 0.3em 2em;
+    margin: 2em 0em;
+    border-radius: 0.5em;
+}
+	.cont_hdng{ padding-left: 1em;}
+	.tp_txt h1 span{ font-size: 1.2rem;}
+.msg {
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    text-align: left;
+    font-family: 'LG Smart';
+    font-size: 1rem;
+    padding: 2%;
+    margin-top: 12%;
+    width: 96%;
+    margin-left: 2%;
+}
+	.mrg_all {
+    margin: 9% 0% 0% 0%;
+}
+	.cta a {
+    display: inline-block;
+    color: #ffffff;
+    background: #a50034;
+    text-decoration: none;
+    font-family: 'LG Smart';
+    font-size: 1rem;
+    padding: 1% 2%;
+    margin-right: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+	.dis_txt{ font-size: 1em;}
+	button.close.cls {
+    background: #bd0707;
+    opacity: 1;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 1em;
+    line-height: 0.3em;
+    width: 30px;
+    height: 30px;
+    line-height: 2px;
+    border-radius: 1.5em;
+    top: 0.2em;
+    right: 0.2em;
+    position: absolute;
+}
+	.form-control {
+    font-family: 'LG Smart';
+    font-size: 1.5em;
+}
+	
+	.modal-title {
+    font-family: 'LG Smart';
+    font-size: 2em;
+}
+	.btn_hd{ top: 1.6em;}
+	.cm_mrg {
+    margin: 12% 0%;
+}
+	
+	.mob_bb{background: rgba(255,255,255, 0.2);
+    box-shadow: 0px 2px 3px #c99110;
+    padding: 2em; margin: 1em;}
+	.top_hd h1 { font-size: 1.4em;}
+	.tn ul li { font-size: 1.2em;}
+	.lege_cpy {
+        top: 8em;
+    left: 1em;
+    padding: 0% 4%;
+    font-family: 'LG Smart SemiBold';
+    font-size: 1.8em;
+    line-height: 1.2em;
+    color: #ffffff;
+    text-shadow: 1px 1px #333333;
+}
+	.top_hd{ top: 10%;}
+	
+	
+}
+
+@media only screen and (max-width:320px){
+	.des_img{ display: none;}
+    .m_img{ display: inline-block;}
+/******************** NEW ***************************/
+
+.tp_txt {
+    width: 100%;
+    top: 4%;
+    color: #ffffff;
+    text-align: center;
+    left: 0;
+    text-transform: uppercase;
+    margin-top: 10%;
+}
+	.tp_txt h1{ font-size: 2rem;
+    padding: 0% 15%;}
+	.tp_txt h1 span{ font-size: 1.2rem;}
+.msg {
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    text-align: left;
+    font-family: 'LG Smart';
+    font-size: 1rem;
+    padding: 2%;
+    margin-top: 12%;
+    width: 96%;
+    margin-left: 2%;
+}
+	.mrg_all {
+    margin: 9% 0% 0% 0%;
+}
+	.cta a {
+    display: inline-block;
+    color: #ffffff;
+    background: #a50034;
+    text-decoration: none;
+    font-family: 'LG Smart';
+    font-size: 1rem;
+    padding: 1% 2%;
+    margin-right: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+}
+
+
+.demo{ width: 100%; float: left; margin-top: 20%; margin-bottom: 20%; margin-left: 20%; margin-right: 20%; padding-top: 5%; padding-top: 5%; padding-bottom: 5%; padding-left: 5%; padding-right: 5%; display: inline-block}
+
+

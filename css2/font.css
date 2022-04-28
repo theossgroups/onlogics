@@ -1,0 +1,121 @@
+
+
+@font-face {
+    font-family: "VL_Imogen_Agnes";
+    src: url("../fonts/VL_Imogen Agnes.eot");
+    src: url("../fonts/LG_Smart_SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/VL_Imogen Agnes.woff") format("woff"), url("../fonts/VL_Imogen_Agnes.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: "LG Smart SemiBold";
+    src: url("../fonts/LG_Smart_SemiBold.eot");
+    src: url("../fonts/LG_Smart_SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/LG_Smart_SemiBold.woff") format("woff"), url("../fonts/LG_Smart_SemiBold.ttf") format("truetype"), url("../fonts/LG_Smart_SemiBold.svg#LG Smart SemiBold") format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "LG Smart SemiBold";
+    src: url("../fonts/LG_Smart_Bold.eot");
+    src: url("../fonts/LG_Smart_Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/LG_Smart_Bold.woff") format("woff"), url("../fonts/lg-smart/LG_Smart_Bold.ttf") format("truetype"), url("../fonts/lg-smart/LG_Smart_Bold.svg#LG Smart SemiBold") format("svg");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "LG Smart SemiBold";
+    src: url("../fonts/LG_Smart_Bold_Italic.eot");
+    src: url("../fonts/LG_Smart_Bold_Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/LG_Smart_Bold_Italic.woff") format("woff"), url("../fonts/LG_Smart_Bold_Italic.ttf") format("truetype"), url("../fonts/LG_Smart_Bold_Italic.svg#LG Smart SemiBold") format("svg");
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: "LG Smart Light";
+    src: url("../fonts/LG_Smart_Light.eot");
+    src: url("../fonts/LG_Smart_Light.eot?#iefix") format("embedded-opentype"), url("../fonts/LG_Smart_Light.woff") format("woff"), url("../fonts/LG_Smart_Light.ttf") format("truetype"), url("../fonts/LG_Smart_Light.svg#LG Smart Light") format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "LG Smart Light";
+    src: url("../fonts/LG_Smart_Regular.eot");
+    src: url("../fonts/LG_Smart_Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/LG_Smart_Regular.woff") format("woff"), url("../fonts/LG_Smart_Regular.ttf") format("truetype"), url("../fonts/LG_Smart_Regular.svg#LG Smart Light") format("svg");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "LG Smart Light";
+    src: url("../fonts/LG_Smart_Regular_Italic.eot");
+    src: url("../fonts/LG_Smart_Regular_Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/LG_Smart_Regular_Italic.woff") format("woff"), url("../fonts/LG_Smart_Regular_Italic.ttf") format("truetype"), url("../fonts/LG_Smart_Regular_Italic.svg#LG Smart Light") format("svg");
+    font-weight: 700;
+    font-style: italic;
+}
+body:before {
+    font-family: "LG Smart Light";
+    content: ''}
+
+@font-face { font-family: 'LG Smart Light'; font-style: normal; font-weight: 400; src: url("../fonts/LG Smart Light.eot"); src: url("../fonts/LG Smart Light.woff") format("woff"), url("../fonts/LG Smart Light.ttf") format("truetype"); }
+
+@font-face { font-family: 'LG Smart'; font-style: normal; font-weight: 400; src: url("../fonts/LG Smart Regular.eot"); src: url("../fonts/LG Smart Regular.woff") format("woff"), url("../fonts/LG Smart Regular.ttf") format("truetype"); }
+
+@font-face { font-family: 'LG Smart Regular Italic'; font-style: normal; font-weight: 400; src: url("../fonts/LG Smart Regular Italic.eot"); src: url("../fonts/LG Smart Regular Italic.woff") format("woff"), url("../fonts/LG Smart Regular Italic.ttf") format("truetype"); }
+
+@font-face { font-family: 'LG Smart SemiBold'; font-style: normal; font-weight: 700; src: url("../fonts/LG Smart SemiBold.eot"); src: url("../fonts/LG Smart SemiBold.woff") format("woff"), url("../fonts/LG Smart SemiBold.ttf") format("truetype"); }
+
+@font-face { font-family: 'LG Smart Bold'; font-style: normal; font-weight: 800; src: url("../fonts/LG Smart Bold.eot"); src: url("../fonts/LG Smart Bold.woff") format("woff"), url("../fonts/LG Smart Bold.ttf") format("truetype"); }
+
+@font-face {
+	font-family: 'MYRIADPROREGULAR';
+	src: url('../fonts/MYRIADPROREGULAR.eot');
+	src: local('MYRIADPROREGULAR'), url('../fonts/MYRIADPROREGULAR.woff') format('woff'), url('../fonts/MYRIADPROREGULAR.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_4410">Text with this font applied</p> */
+.fontsforweb_fontid_4410 {
+	font-family: 'MYRIADPROREGULAR' !important;
+}
+
+
+
+
+
+
+@font-face {
+	font-family: "Smart Regular";
+	src: url("../fonts/LG-Smart-Regular.ttf");
+	src: local("â˜º"),url("../fonts/LG-Smart-Regular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal
+}
+@font-face {
+	font-family: "Smart Bold";
+	src: url("../fonts/LG-Smart-Bold.ttf");
+	src: local("â˜º"),url("../fonts/LG-Smart-Bold.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal
+}
+
+@font-face {
+	font-family: "Smart Semi-Bold";
+	src: url("../fonts/LG Smart SemiBold.ttf");
+	src: local("â˜º"),url("../fonts/LG Smart SemiBold.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal
+}
+
+
+
+
+
+
+
+@font-face{font-family: 'WebRupee';src: url('../fonts/WebRupee.V2.0.eot');src: local('WebRupee'), url('../fonts/WebRupee.V2.0.ttf') format('truetype'),  url('../fonts/WebRupee.V2.0.woff') format('woff'), url('../fonts/WebRupee.V2.0.svg') format('svg'); font-weight:normal; font-style:normal;}
+.WebRupee {  font-family:'WebRupee'; color:#ffffff !important; font-size:0.8em; }
+.WebRupee2 {  font-family:'WebRupee'; color:#333333 !important; font-size:14px;}
+.WebRupee3{  font-family:'WebRupee'; color:#a50034 !important; font-size:13px;}
+.webRupee4{ font-family: 'WebRupee';color: #d80546!important;font-size: 0.8em;}
+
+
+
+
